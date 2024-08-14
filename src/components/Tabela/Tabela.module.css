@@ -1,0 +1,30 @@
+.table{
+    padding: 50px;
+    max-width: 960px;
+    width: 100%;
+    color: #707070;
+    text-transform: uppercase;
+
+    td{
+        border-bottom: 1px solid #dee2e7;
+        padding: 5px 10px;
+    }
+}
+
+.body{
+    line-height: 30px;
+}
+
+.colunaNome{
+    color: #1289A7;
+    font-weight: bold;
+}
+
+.ultimaColuna{
+    text-align: center;
+}
+
+.linhaDestacada{
+    background-color: #1289A7;
+    color: #fff;
+}
