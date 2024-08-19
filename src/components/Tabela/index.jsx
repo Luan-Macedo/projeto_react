@@ -1,7 +1,7 @@
 import styles from './Tabela.module.css';
 
-const Tabela = () =>{
-    return(
+function Tabela() {
+    return (
         <div className='container'>
             <table className={styles.table} cellSpacing={0}>
                 <tbody className={styles.body}>
@@ -38,7 +38,7 @@ const Tabela = () =>{
                 </tbody>
             </table>
         </div>
-    )
+    );
 }
 
 export default Tabela;
